@@ -48,10 +48,10 @@ function SunChart({ data }) {
           />
           <Legend verticalAlign="top" height={36} />
 
-          <Line type="monotone" dataKey="goldenHourStart" stroke="#facc15" name="Golden Hour Start" />
+          <Line type="monotone" dataKey="goldenHourStart" stroke="#facc15" name="Golden Hour Inicio" />
           <Line type="monotone" dataKey="sunrise" stroke="#2563eb" name="Sunrise" />
           <Line type="monotone" dataKey="sunset" stroke="#dc2626" name="Sunset" />
-          <Line type="monotone" dataKey="goldenHourEnd" stroke="#facc15" strokeDasharray="5 5" name="Golden Hour End" />
+          <Line type="monotone" dataKey="goldenHourEnd" stroke="#facc15" strokeDasharray="5 5" name="Golden Hour Fim" />
         </LineChart>
       </ResponsiveContainer>
     </div>

@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'activerecord', '~> 7.1'
-gem "sqlite3", "~> 1.6", platform: :ruby
+gem "sqlite3", "~> 1.6"
 gem 'dotenv'
 gem 'faraday'
 gem 'geocoder'

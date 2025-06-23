@@ -7,10 +7,10 @@ function SunTable({ data }) {
         <thead>
           <tr>
             <th>Data</th>
-            <th>Golden Hour Start</th>
+            <th>Golden Hour Inicio</th>
             <th>Sunrise</th>
             <th>Sunset</th>
-            <th>Golden Hour End</th>
+            <th>Golden Hour Fim</th>
           </tr>
         </thead>
         <tbody>
