@@ -1,0 +1,18 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'sinatra-activerecord'
+gem 'activerecord', '~> 7.1'
+gem "sqlite3", "~> 1.6", platform: :ruby
+gem 'dotenv'
+gem 'faraday'
+gem 'geocoder'
+gem 'rspec'
+gem 'rack-test'
+gem 'pry'
+gem 'rake'
+gem 'rackup'
+gem 'webrick'
+gem 'sinatra-contrib'
+gem 'sinatra-cross_origin'
+

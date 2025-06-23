@@ -1,0 +1,25 @@
+.sun-table-wrapper {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.sun-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.sun-table th, .sun-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.sun-table th {
+  background-color: #f9fafb;
+  font-weight: bold;
+}
+
+.sun-table tr:nth-child(even) {
+  background-color: #f3f4f6;
+}

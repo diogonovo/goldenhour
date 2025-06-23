@@ -1,0 +1,57 @@
+.sun-timeline-wrapper {
+  margin: 2rem 0;
+}
+
+.sun-timeline {
+  position: relative;
+  height: 30px;
+  background-color: #e5e7eb;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.interval {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.interval.night {
+  background-color: #1e3a8a;
+}
+
+.interval.day {
+  background-color: #fef9c3;
+}
+
+.interval.golden {
+  background-color: #fde047;
+}
+
+.interval:hover .tooltip {
+  display: block;
+}
+
+.tooltip {
+  position: absolute;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #111827;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  display: none;
+  z-index: 10;
+}
+
+.sun-events {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
