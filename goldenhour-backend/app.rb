@@ -45,5 +45,7 @@ class SunriseSunsetApp < Sinatra::Base
     end
   end
 
+  set :port, 9292
   run! if app_file == $0
+
 end
