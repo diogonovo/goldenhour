@@ -9,6 +9,7 @@ Aplicação React + Sinatra para visualização de Golden Hours com base na loca
 ```bash
 cd goldenhour-backend
 bundle install
+bundle exec rake db:migrate
 ruby app.rb
 
 
